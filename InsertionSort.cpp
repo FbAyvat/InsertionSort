@@ -1,4 +1,9 @@
-
+/*
+It is efficient for smaller data sets, but very inefficient for larger lists.
+Insertion Sort is adaptive, that means it reduces its total number of steps if given a partially sorted list, hence it increases its efficiency.
+Its space complexity is less. Insertion sort requires a single additional memory space.
+Overall time complexity of Insertion sort is O(n2).
+*/
 
 #include <iostream>
 #include <stdio.h>
